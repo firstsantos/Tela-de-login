@@ -65,6 +65,24 @@ div#formulario > p {
     font-size: 0.8em;
 }
 
+div.campo > label {
+    display: none;
+}
+
+div.campo > i {
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo > input {
+    font-size: 1em;
+    width:calc(100% - 50px);
+    height: 100%;
+    border: 0px;
+    border-radius: 4px;
+}
+
 form > input[type=submit] {
     display: block;
     font-size: 1em;
