@@ -20,7 +20,7 @@ Grandes telas: acima de 1200px
     }
 
     section#login > div#imagem {
-        float: left;
+        float: right;
         width: 30%;
         height: 100%;
     }
@@ -29,6 +29,7 @@ Grandes telas: acima de 1200px
         float: right;
         width: 70%;
     }
+
 }
 
 @media screen and (min-width:992px) {
@@ -53,4 +54,13 @@ Grandes telas: acima de 1200px
     div#formulario > p {
         font-size: 1.2em;
     }
+
+    form > input[type=submit] {
+        width: 49%;
+    }
+
+    form > a.botao {
+        width: 49%;
+    }
+
 }

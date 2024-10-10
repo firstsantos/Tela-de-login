@@ -16,20 +16,20 @@
             </div>
             <div id="formulario">
                 <h1>Login</h1>
-                <p>Seja bem-vindo(a) novamente. Faça Loin para acessar sua conta e poder fazer as configurações no seu ambiente</p>
+                <p>Seja bem-vindo(a) novamente. Faça o Login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
                 <form action="login.php" method="post">
                     <div class="campo">
                         <i class="material-icons">person</i>
-                        <input type="email" name="login" id="ilogin" placeholder="Seu e-mail"
-                        autocomplete="email">
+                        <input class="Senha" type="email" name="login" id="ilogin" placeholder="Seu e-mail"
+                        autocomplete="email" required maxlength="30">
                     </div>
                     <div class="campo">
                         <i class="material-icons">lock</i>
-                        <input type="password" name="senha" id="isenha" placeholder="sua senha" autocomplete="current-password" required minlength="8" maxlength="20">
+                        <input class="Email" type="password" name="senha" id="isenha" placeholder="sua senha" autocomplete="current-password" required minlength="8" maxlength="20">
                     </div>
                     <input type="submit" name="Entrar" >
-                    <a href="esqueci.html"> 
-                        Esqueci a senha <i class="material-icons">send</i>
+                    <a href="esqueci.html" class="butão"> 
+                        Esqueci a senha
                     </a>
                 </form>
             </div>
